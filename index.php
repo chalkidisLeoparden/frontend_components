@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="build/styles.css"/>
 </head>
 <body>
+<?php
+require_once 'image-with-text/image-with-text.html';
+?>
 <script type="text/javascript" src="build/app.js"></script>
 </body>
 </html>
