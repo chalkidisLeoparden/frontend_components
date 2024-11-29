@@ -1,1 +1,6 @@
 @use "../image-with-text/image-with-text";
+
+body {
+  margin: 0;
+  padding: clamp(0rem, 1vw, 1rem);
+}
