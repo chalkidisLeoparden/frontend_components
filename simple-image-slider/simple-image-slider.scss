@@ -1,0 +1,38 @@
+.simple-image-slider {
+  display: grid;
+  gap: 2rem;
+  
+  .image-slide {
+    grid-area: 1 / 1 / 1 / 1;
+    display: none;
+    width: 100%;
+    
+    img {
+      width: 100%;
+    }
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .arrow {
+    grid-area: 1 / 1 / 1 / 1;
+    width: 3rem;
+    height: 3rem;
+    background: none;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    margin-inline: 1rem;
+    padding-inline: 0;
+  }
+  
+  .arrow-before {
+    justify-self: start;
+  }
+  
+  .arrow-after {
+    justify-self: end;
+  }
+}
