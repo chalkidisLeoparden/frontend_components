@@ -13,6 +13,7 @@
 require_once 'image-with-text/image-with-text.html';
 require_once 'text-columns/text-columns.html';
 require_once 'image-text-overlay/image-text-overlay.html';
+require_once 'simple-image-slider/simple-image-slider.html'
 ?>
 <script type="text/javascript" src="build/app.js"></script>
 </body>
