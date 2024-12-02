@@ -1,7 +1,10 @@
 .image-text-overlay {
   display: grid;
-  max-width: 75ch;
   justify-items: center;
+  
+  .image, .text {
+    max-width: 75ch;
+  }
   
   .image {
     grid-row: 1;
@@ -17,9 +20,9 @@
   .text {
     grid-row: 1;
     grid-column: 1;
-    padding: 2rem;
     
     p {
+      padding: 2rem;
       text-shadow: 0 0 1ch white;
     }
   }
