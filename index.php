@@ -11,6 +11,7 @@
 <body>
 <?php
 require_once 'image-with-text/image-with-text.html';
+require_once 'text-columns/text-columns.html';
 ?>
 <script type="text/javascript" src="build/app.js"></script>
 </body>

@@ -1,0 +1,6 @@
+.text-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100vw, 30ch), 75ch));
+  gap: 2rem;
+  justify-content: space-evenly;
+}
