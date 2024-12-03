@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
+  "files": [
+    "./assets/app.d.ts"
+  ],
   "include": [
     "./assets/*"
   ]
