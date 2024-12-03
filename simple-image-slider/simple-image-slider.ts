@@ -1,5 +1,6 @@
 import template from './simple-image-slider.html'
 import styles from './simple-image-slider.scss'
+
 function handleButtonClicks(...args: any []) {
     let slider: HTMLDivElement | null = document.querySelector('.simple-image-slider')
 
@@ -23,6 +24,7 @@ function handleButtonClicks(...args: any []) {
         })
     }
 }
+
 export {
     handleButtonClicks as method,
     styles,
